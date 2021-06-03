@@ -1,0 +1,153 @@
+body{
+	background-color: black;
+	color: #CDA434;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Goblin One', cursive;
+}
+.menu{
+	background-color: #4b5756;
+	font-weight: bold;
+	width: 150px;
+	height: 100%;
+	position: fixed;
+	border-radius: 10px;
+	top: 0;
+	left: 0;
+	padding: 10px 15px;
+}
+.menu a{
+	display: block;
+	color: #CDA434;
+	text-decoration: none;
+	padding: 6px 16px;
+}
+.menu a:hover{
+	font-size: 20px;
+}
+.content{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+h1{
+	font-size: 50px;
+}
+.images img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	margin: 10px 0;
+}
+hr{
+	background-color: #CDA434;
+	border: 5px solid #CDA434;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.member{
+	width: 30%;
+	display: inline-block;
+	padding: 8px;
+}
+.member img{
+	width: 100%;
+	border-radius: 10px;
+}
+.description{
+	background-color:  #4b5756;
+	padding: 2px 16px 5px;
+	border-radius: 10px;
+}
+.game-name{
+	font-weight: bold;
+}
+.donate li{
+	list-style: none;
+	border: 1px solid #CDA434;
+	padding: 16px 0 ;		
+}
+
+.donate .donate-name{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 32px 0;
+	background-color: black;
+}
+
+.donate{
+	width: 40%;
+	display: inline-block;
+	margin: 10px;
+	padding: 0;
+	vertical-align: middle;
+	min-width: 150px;
+	text-align: center;
+}
+
+.donate li:last-child{
+	padding: 24px 0;
+}
+.donate a{
+	text-decoration: none;
+	border: 1px dashed #CDA434;
+	padding: 12px 24px;
+	color: #CDA434;
+}
+.donate a:hover{
+	background-color: #CDA434;;
+	color: black;	
+}
+.donate .price{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contacts{
+	color: #CDA434;
+}
+
+button{
+	width: 200px;
+	text-align: center;
+	border-radius: 10px;
+}
+.contacts label{
+	display: block;
+}
+.contacts input{
+	width: 100%;
+	padding: 6px 16px;
+	background-color: black;
+	color: #CDA434;
+	border: 1px solid #CDA434;
+	outline: none;
+	box-sizing: border-box;
+}
+.contacts input::placeholder{
+	color: #CDA434;
+}
+.contacts button{
+	width: 100%;
+	padding: 4px;
+	background-color: black;
+	color: #CDA434;
+	border: 1px solid #CDA434;
+	outline: none;
+}
+.contacts button:hover{
+	font-size: 18px;
+}
+.footer{
+	text-align: right;
+	padding: 32px 58px 32px;
+}
+.footer a{
+	color: #CDA434;
+}
